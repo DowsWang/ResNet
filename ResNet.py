@@ -108,7 +108,7 @@ def main():
 
     p = sum(map(lambda p:p.numel(), model.parameters()))
     #numel return number of array
-    #parameters return para of network
+    # parameters return para of network
     #map(lambda x: x ** 2, [1, 2, 3, 4, 5])
     #==>[1, 4, 9, 16, 25]
     print('parameters size:', p)
